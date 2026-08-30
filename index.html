@@ -1,0 +1,79 @@
+<!--this code was made by Injeti Roni Atchut of class IX B-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!--this code was made by Injeti Roni Atchut of class IX B-->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Guess the Person</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!--this code was made by Injeti Roni Atchut of class IX B-->
+
+<body>
+
+    <!-- START SCREEN -->
+    <div id="start-screen" class="quiz-container start-screen">
+        <h1>Guess the Person</h1>
+        <p class="name-label">Enter your name to start:</p>
+
+        <input type="text" id="player-name" class="name-input"
+               placeholder="Enter your name" maxlength="30" autocomplete="off">
+
+        <button id="start-button" class="start-button" disabled>
+            Start Game
+        </button>
+    </div>
+
+    <!-- QUIZ SCREEN -->
+    <div id="quiz-screen" class="quiz-container" style="display: none;">
+        <h1>Guess the Person</h1>
+
+        <div class="score">
+            Score: <span id="score">0</span>
+        </div>
+
+        <div class="question-number">
+            Question <span id="question-number">1 / 5</span>
+        </div>
+
+        <div class="photo-container">
+            <img id="person-image" src="" alt="Guess the person">
+        </div>
+
+        <h2>Who is this person?</h2>
+
+        <div id="options" class="options"></div>
+        <div id="result"></div>
+
+        <button id="next-button">Next Question</button>
+    </div>
+
+    <!-- LEADERBOARD SCREEN -->
+    <div id="leaderboard-screen" class="quiz-container leaderboard-screen" style="display: none;">
+        <h1>Leaderboard</h1>
+
+        <div id="final-score"></div>
+        <div id="leaderboard-loading">Loading leaderboard...</div>
+        <ol id="leaderboard"></ol>
+
+        <button id="play-again-button" class="start-button enabled">
+            Play Again
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!--this code was made by Injeti Roni Atchut of class IX B-->
+<!--this code was made by Injeti Roni Atchut of class IX B-->
+<!--this code was made by Injeti Roni Atchut of class IX B-->
+<!--this code was made by Injeti Roni Atchut of class IX B-->
+<!--this code was made by Injeti Roni Atchut of class IX B-->
+<!--this code was made by Injeti Roni Atchut of class IX B-->
+<!--this code was made by Injeti Roni Atchut of class IX B-->
