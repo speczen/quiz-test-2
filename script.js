@@ -2,8 +2,8 @@
 // this code was made by Injeti Roni Atchut of class IX B
 
 // ADD YOUR SUPABASE DETAILS HERE
-const SUPABASE_URL = "YOUR_SUPABASE_URL";
-const SUPABASE_ANON_KEY = "YOUR_SUPABASE_ANON_KEY";
+const SUPABASE_URL = "https://uyvgkughmyofknhmuckh.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_-PnsghRQz6LtKCBTm1OpHA_Pm4xGSQv";
 
 const MAX_ROUNDS = 5;
 
