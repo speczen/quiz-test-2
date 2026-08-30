@@ -47,6 +47,8 @@ nameInput.addEventListener("keydown", (event) => {
     if (event.key === "Enter" && !startButton.disabled) startGame();
 });
 
+startButton.addEventListener("click", startGame);
+
 async function loadPeople() {
     try {
         const response = await fetch("people.json");
